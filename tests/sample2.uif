@@ -1,0 +1,17 @@
+[top]
+email form
+password form
+submit button
+---
+login
+==> mypage
+
+[mypage]
+link edit profile
+link add photo
+link add feed
+---
+edit profile
+={/api/add/photo}=> photo
+add feed
+={/api/add/feed}=> feed

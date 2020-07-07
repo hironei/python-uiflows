@@ -1,0 +1,63 @@
+digraph G {
+	graph [bb="0,0,448,129",
+		charset="UTF-8",
+		rankdir=LR,
+		style=filled
+	];
+	node [fontname="M+ 1m,Osaka-Mono,ＭＳ ゴシック",
+		fontsize=11,
+		label="\N",
+		margin="0.1,0.1",
+		style=solid
+	];
+	edge [color="#777777",
+		fontname="M+ 1m,Osaka-Mono,ＭＳ ゴシック",
+		fontsize=9
+	];
+	iba83f34a7475a6ac9d741b375f5f21fa8a2129e5dbd91dd62b539c7ee3a63ecb	 [height=0.94444,
+		label=<
+		<table border="0" cellborder="1" cellspacing="0">
+		<tr><td port="top" bgcolor="#87CEEB"><B>最初に</B></td></tr>
+		<tr><td><font color="#8B0000"><B>ユーザーが見るものを書きます。</B></font></td></tr>
+		<tr><td port="pa35af3664d00bb26c1b753b5118324499794e1527882a0d94132ee026a4a500e"><font color="#4FBC92"><B>ユーザーがする行動を書きます。</B></font></td></tr>
+		</table>
+		>,
+		pos="89,95",
+		shape=plaintext,
+		width=2.4722];
+	i1162f0c0583f9f92d113b47db2da63eb7fa396c78b5f096d2464e5b78c44168d	 [height=1.1944,
+		label=<
+		<table border="0" cellborder="1" cellspacing="0">
+		<tr><td port="top" bgcolor="#87CEEB"><B>次に</B></td></tr>
+		<tr><td><font color="#8B0000"><B>ユーザーが見るもの</B></font></td></tr>
+		<tr><td port="pa380ac13cfc0568eda8ab98a256ab4978d98fb647f8f07e9ed433108b05a71a3"><font color="#4FBC92"><B>ユーザーがすること１</B></font></td></tr>
+		<tr><td port="pce0366953bc0a9b470d2d965a7de73246eb151144579b11a786bc54d12837063"><font color="#4FBC92"><B>ユーザーがすること２</B></font></td></tr>
+		</table>
+		>,
+		pos="276.5,86",
+		shape=plaintext,
+		width=1.7361];
+	iba83f34a7475a6ac9d741b375f5f21fa8a2129e5dbd91dd62b539c7ee3a63ecb:top -> i1162f0c0583f9f92d113b47db2da63eb7fa396c78b5f096d2464e5b78c44168d:top	 [pos="e,220.5,113 172,113 189.68,113 196.49,113 210.26,113"];
+	i88cb2100ac0a8aa7dfc77d7f64faf35c4635d73fad4b5263ca13c53d7882c229	 [height=0.69444,
+		label=<
+		<table border="0" cellborder="1" cellspacing="0">
+		<tr><td port="top" bgcolor="#87CEEB"><B>その結果１</B></td></tr>
+		<tr><td><font color="#8B0000"><B>結果</B></font></td></tr>
+		</table>
+		>,
+		pos="411.5,93",
+		shape=plaintext,
+		width=1.0139];
+	i1162f0c0583f9f92d113b47db2da63eb7fa396c78b5f096d2464e5b78c44168d:pa380ac13cfc0568eda8ab98a256ab4978d98fb647f8f07e9ed433108b05a71a3 -> i88cb2100ac0a8aa7dfc77d7f64faf35c4635d73fad4b5263ca13c53d7882c229:top	 [pos="e,381.5,102 333.5,77 353.61,77 356.83,94.47 371.4,100.2"];
+	i1968b7380a45aece660d9bd2d29af5268551c5a62e1c90a966ec353798c6e1c5	 [height=0.69444,
+		label=<
+		<table border="0" cellborder="1" cellspacing="0">
+		<tr><td port="top" bgcolor="#87CEEB"><B>その結果２</B></td></tr>
+		<tr><td><font color="#8B0000"><B>結果</B></font></td></tr>
+		</table>
+		>,
+		pos="411.5,25",
+		shape=plaintext,
+		width=1.0139];
+	i1162f0c0583f9f92d113b47db2da63eb7fa396c78b5f096d2464e5b78c44168d:pce0366953bc0a9b470d2d965a7de73246eb151144579b11a786bc54d12837063 -> i1968b7380a45aece660d9bd2d29af5268551c5a62e1c90a966ec353798c6e1c5:top	 [pos="e,381.5,34 333.5,59 353.61,59 356.83,41.53 371.4,35.798"];
+}

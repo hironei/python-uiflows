@@ -1,0 +1,28 @@
+- name: top
+  see:
+    - email form
+    - password form
+    - submit form
+  action:
+    - login: mypage
+  # name, see, action以外の key:value はノードの属性として設定される(Graphvizのパラメータ参照)
+  fontcolor: "red"
+  fontsize: 20
+  # top_bg_color, see_color, action_color はノード内のテーブルの属性値
+  top_bg_color: "blue"
+- name: mypage
+  see:
+    - link edit profile
+    - link add photo
+    - link add feed
+  action:
+    - event: edit profile
+      node: photo
+      label: /api/add/photo
+      # event, node(option、但しlabel設定時は必須), label(option) 以外の key:value はエッジの属性として設定される(Graphvizのパラメータ参照)
+      arrowsize: 1.5
+      color: "blue"
+      taillabel: "tail"
+    - event: add feed
+      node: feed
+      label: /api/add/feed

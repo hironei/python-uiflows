@@ -1,0 +1,16 @@
+-
+  name: hoge
+  see:
+    - hoge
+    - uge
+  action:
+    - fuga
+    - muga: hage
+-
+  name: hage
+  see:
+    - hoge
+    - uge
+  action:
+    - fuga
+    - muga: hoge
